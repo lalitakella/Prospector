@@ -75,7 +75,7 @@ public class Prospector : MonoBehaviour
             layoutAnchor.transform.position = layoutCenter;
         }
     
-         CardProspector cp;
+        CardProspector cp;
         foreach (SlotDef tSD in layout.slotDefs)
         {
             cp = Draw();
