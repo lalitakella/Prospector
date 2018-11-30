@@ -129,7 +129,10 @@ MonoBehaviour
         }
 
     }
-
+    virtual public void OnMouseUpAsButton()
+    {
+        print(name);
+    }
 } // class Card
 
 
